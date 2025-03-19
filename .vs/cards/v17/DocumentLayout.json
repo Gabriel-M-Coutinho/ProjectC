@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Bulbo\\Documents\\cards\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80A0259A-2BC7-41A4-AA8C-79275A7F0B8C}|cards.csproj|c:\\users\\bulbo\\documents\\cards\\scripts\\ttt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A0259A-2BC7-41A4-AA8C-79275A7F0B8C}|cards.csproj|solutionrelative:scripts\\ttt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ttt.cs",
+              "DocumentMoniker": "C:\\Users\\Bulbo\\Documents\\cards\\scripts\\ttt.cs",
+              "RelativeDocumentMoniker": "scripts\\ttt.cs",
+              "ToolTip": "C:\\Users\\Bulbo\\Documents\\cards\\scripts\\ttt.cs",
+              "RelativeToolTip": "scripts\\ttt.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T16:58:10.278Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

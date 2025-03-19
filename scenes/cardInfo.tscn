@@ -1,0 +1,60 @@
+[gd_scene load_steps=4 format=3 uid="uid://q5j35gkk4tuh"]
+
+[ext_resource type="Script" uid="uid://c7vr8epyfulfl" path="res://scripts/card/card_info.gd" id="1_tyqa3"]
+[ext_resource type="Texture2D" uid="uid://nslykklev0ws" path="res://cards/cerberusr.png" id="2_tyqa3"]
+[ext_resource type="Script" uid="uid://dya4p3tcwnowf" path="res://scripts/board/CardInfo/Modal.gd" id="2_ysq2h"]
+
+[node name="CardInfo" type="Node2D"]
+visibility_layer = 2
+script = ExtResource("1_tyqa3")
+
+[node name="Control" type="Panel" parent="."]
+offset_left = -1.0
+offset_right = 1104.0
+offset_bottom = 1066.0
+script = ExtResource("2_ysq2h")
+
+[node name="SpriteArt" type="Sprite2D" parent="Control"]
+position = Vector2(505, 468)
+scale = Vector2(0.409274, 0.379205)
+texture = ExtResource("2_tyqa3")
+
+[node name="DescriptionLabel" type="RichTextLabel" parent="Control"]
+layout_mode = 0
+offset_left = 299.0
+offset_top = 834.0
+offset_right = 705.0
+offset_bottom = 964.0
+text = "carberus ta forte"
+horizontal_alignment = 1
+
+[node name="Button" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = 985.0
+offset_top = 39.0
+offset_right = 1083.0
+offset_bottom = 137.0
+action_mode = 0
+text = "close"
+
+[node name="NameLabel" type="Label" parent="Control"]
+layout_mode = 0
+offset_left = 327.0
+offset_top = 91.0
+offset_right = 720.0
+offset_bottom = 122.0
+horizontal_alignment = 1
+
+[node name="ATK" type="Label" parent="Control"]
+layout_mode = 0
+offset_left = 288.0
+offset_top = 942.0
+offset_right = 328.0
+offset_bottom = 965.0
+
+[node name="LIFE" type="Label" parent="Control"]
+layout_mode = 0
+offset_left = 617.0
+offset_top = 938.0
+offset_right = 657.0
+offset_bottom = 961.0

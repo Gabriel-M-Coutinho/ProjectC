@@ -1,0 +1,24 @@
+[
+	
+	{
+		"name": "Mago Negro",
+		"description": "Um mago sombrio e poderoso.",
+		"image_path": "res://cards/magonegro.jpg",
+		"atk":15,
+		"life":30
+	},
+	{
+		"name": "Exodia, o Proibido",
+		"description": "Uma criatura lendária e invencível.",
+		"image_path": "res://cards/exodia.jpg",
+		"atk":15,
+		"life":20
+	},
+		{
+		"name": "Dragão Branco de Olhos Azuis",
+		"description": "Um poderoso dragão lendário.",
+		"image_path": "res://cards/dragao.webp",
+		"atk":15,
+		"life":20
+	},
+]

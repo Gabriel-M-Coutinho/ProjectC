@@ -1,0 +1,50 @@
+[gd_scene load_steps=2 format=3 uid="uid://q5j35gkk4tuh"]
+
+[ext_resource type="Script" uid="uid://c7vr8epyfulfl" path="res://scripts/card_info.gd" id="1_tyqa3"]
+
+[node name="CardInfo" type="Node2D"]
+script = ExtResource("1_tyqa3")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -1.0
+offset_top = 5.0
+offset_right = 621.0
+offset_bottom = 649.0
+
+[node name="SpriteArt" type="Sprite2D" parent="Control"]
+position = Vector2(217, 280)
+
+[node name="DescriptionLabel" type="RichTextLabel" parent="Control"]
+layout_mode = 0
+offset_left = 18.0
+offset_top = 506.0
+offset_right = 424.0
+offset_bottom = 636.0
+
+[node name="Button" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = 519.0
+offset_top = 9.0
+offset_right = 617.0
+offset_bottom = 107.0
+action_mode = 0
+text = "close"
+
+[node name="NameLabel" type="Label" parent="Control"]
+layout_mode = 0
+offset_left = 23.0
+offset_top = 20.0
+offset_right = 416.0
+offset_bottom = 51.0
+
+[node name="ATK" type="Label" parent="Control"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="LIFE" type="Label" parent="Control"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
