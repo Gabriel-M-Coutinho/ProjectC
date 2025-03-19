@@ -1,8 +1,8 @@
 [gd_scene load_steps=5 format=3 uid="uid://dmot0vjmfhu1a"]
 
-[ext_resource type="Script" uid="uid://dr4651nnol3we" path="res://scripts/card/card.gd" id="1_d81rb"]
+[ext_resource type="Script" uid="uid://dr4651nnol3we" path="res://scripts/GDScript/card/card.gd" id="1_d81rb"]
 [ext_resource type="Texture2D" uid="uid://dgxqbdbia36ie" path="res://cards/templatecard.png" id="2_kg30u"]
-[ext_resource type="Script" uid="uid://d4ntbpyv3lg3x" path="res://scripts/card/cardcolision.gd" id="4_kg30u"]
+[ext_resource type="Script" uid="uid://d4ntbpyv3lg3x" path="res://scripts/GDScript/card/cardcolision.gd" id="4_kg30u"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ktuci"]
 size = Vector2(1239, 1754)

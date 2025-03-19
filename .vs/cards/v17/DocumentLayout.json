@@ -1,10 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Bulbo\\Documents\\cards\\",
+  "WorkspaceRootPath": "E:\\games\\ProjectC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{80A0259A-2BC7-41A4-AA8C-79275A7F0B8C}|cards.csproj|c:\\users\\bulbo\\documents\\cards\\scripts\\ttt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80A0259A-2BC7-41A4-AA8C-79275A7F0B8C}|cards.csproj|solutionrelative:scripts\\ttt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{80A0259A-2BC7-41A4-AA8C-79275A7F0B8C}|cards.csproj|e:\\games\\projectc\\scripts\\csharp\\services\\carddatabaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A0259A-2BC7-41A4-AA8C-79275A7F0B8C}|cards.csproj|solutionrelative:scripts\\csharp\\services\\carddatabaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A0259A-2BC7-41A4-AA8C-79275A7F0B8C}|cards.csproj|e:\\games\\projectc\\scripts\\csharp\\models\\abilitytranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A0259A-2BC7-41A4-AA8C-79275A7F0B8C}|cards.csproj|solutionrelative:scripts\\csharp\\models\\abilitytranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A0259A-2BC7-41A4-AA8C-79275A7F0B8C}|cards.csproj|e:\\games\\projectc\\scripts\\csharp\\models\\cardability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A0259A-2BC7-41A4-AA8C-79275A7F0B8C}|cards.csproj|solutionrelative:scripts\\csharp\\models\\cardability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A0259A-2BC7-41A4-AA8C-79275A7F0B8C}|cards.csproj|e:\\games\\projectc\\scripts\\csharp\\models\\cardtraslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A0259A-2BC7-41A4-AA8C-79275A7F0B8C}|cards.csproj|solutionrelative:scripts\\csharp\\models\\cardtraslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A0259A-2BC7-41A4-AA8C-79275A7F0B8C}|cards.csproj|e:\\games\\projectc\\scripts\\csharp\\models\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A0259A-2BC7-41A4-AA8C-79275A7F0B8C}|cards.csproj|solutionrelative:scripts\\csharp\\models\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A0259A-2BC7-41A4-AA8C-79275A7F0B8C}|cards.csproj|e:\\games\\projectc\\scripts\\csharp\\models\\language.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A0259A-2BC7-41A4-AA8C-79275A7F0B8C}|cards.csproj|solutionrelative:scripts\\csharp\\models\\language.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bulbo\\Documents\\cards\\scripts\\ttt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,15 +42,89 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CardDatabaseService.cs",
+              "DocumentMoniker": "E:\\games\\ProjectC\\scripts\\CSharp\\Services\\CardDatabaseService.cs",
+              "RelativeDocumentMoniker": "scripts\\CSharp\\Services\\CardDatabaseService.cs",
+              "ToolTip": "E:\\games\\ProjectC\\scripts\\CSharp\\Services\\CardDatabaseService.cs",
+              "RelativeToolTip": "scripts\\CSharp\\Services\\CardDatabaseService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAADwvxoAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T21:21:13.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AbilityTranslation.cs",
+              "DocumentMoniker": "E:\\games\\ProjectC\\scripts\\CSharp\\Models\\AbilityTranslation.cs",
+              "RelativeDocumentMoniker": "scripts\\CSharp\\Models\\AbilityTranslation.cs",
+              "ToolTip": "E:\\games\\ProjectC\\scripts\\CSharp\\Models\\AbilityTranslation.cs",
+              "RelativeToolTip": "scripts\\CSharp\\Models\\AbilityTranslation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T21:18:43.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CardAbility.cs",
+              "DocumentMoniker": "E:\\games\\ProjectC\\scripts\\CSharp\\Models\\CardAbility.cs",
+              "RelativeDocumentMoniker": "scripts\\CSharp\\Models\\CardAbility.cs",
+              "ToolTip": "E:\\games\\ProjectC\\scripts\\CSharp\\Models\\CardAbility.cs",
+              "RelativeToolTip": "scripts\\CSharp\\Models\\CardAbility.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T21:18:25.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CardTraslation.cs",
+              "DocumentMoniker": "E:\\games\\ProjectC\\scripts\\CSharp\\Models\\CardTraslation.cs",
+              "RelativeDocumentMoniker": "scripts\\CSharp\\Models\\CardTraslation.cs",
+              "ToolTip": "E:\\games\\ProjectC\\scripts\\CSharp\\Models\\CardTraslation.cs",
+              "RelativeToolTip": "scripts\\CSharp\\Models\\CardTraslation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T21:17:50.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Card.cs",
+              "DocumentMoniker": "E:\\games\\ProjectC\\scripts\\CSharp\\Models\\Card.cs",
+              "RelativeDocumentMoniker": "scripts\\CSharp\\Models\\Card.cs",
+              "ToolTip": "E:\\games\\ProjectC\\scripts\\CSharp\\Models\\Card.cs",
+              "RelativeToolTip": "scripts\\CSharp\\Models\\Card.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T21:17:10.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Language.cs",
+              "DocumentMoniker": "E:\\games\\ProjectC\\scripts\\CSharp\\Models\\Language.cs",
+              "RelativeDocumentMoniker": "scripts\\CSharp\\Models\\Language.cs",
+              "ToolTip": "E:\\games\\ProjectC\\scripts\\CSharp\\Models\\Language.cs",
+              "RelativeToolTip": "scripts\\CSharp\\Models\\Language.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T21:15:44.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ttt.cs",
               "DocumentMoniker": "C:\\Users\\Bulbo\\Documents\\cards\\scripts\\ttt.cs",
-              "RelativeDocumentMoniker": "scripts\\ttt.cs",
               "ToolTip": "C:\\Users\\Bulbo\\Documents\\cards\\scripts\\ttt.cs",
-              "RelativeToolTip": "scripts\\ttt.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T16:58:10.278Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T16:58:10.278Z"
             }
           ]
         }

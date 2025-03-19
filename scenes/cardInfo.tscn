@@ -1,8 +1,8 @@
 [gd_scene load_steps=4 format=3 uid="uid://q5j35gkk4tuh"]
 
-[ext_resource type="Script" uid="uid://c7vr8epyfulfl" path="res://scripts/card/card_info.gd" id="1_tyqa3"]
+[ext_resource type="Script" uid="uid://c7vr8epyfulfl" path="res://scripts/GDScript/card/card_info.gd" id="1_tyqa3"]
 [ext_resource type="Texture2D" uid="uid://nslykklev0ws" path="res://cards/cerberusr.png" id="2_tyqa3"]
-[ext_resource type="Script" uid="uid://dya4p3tcwnowf" path="res://scripts/board/CardInfo/Modal.gd" id="2_ysq2h"]
+[ext_resource type="Script" uid="uid://dya4p3tcwnowf" path="res://scripts/GDScript/board/CardInfo/Modal.gd" id="2_ysq2h"]
 
 [node name="CardInfo" type="Node2D"]
 visibility_layer = 2
