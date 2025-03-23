@@ -1,18 +1,16 @@
-[gd_scene load_steps=4 format=3 uid="uid://q5j35gkk4tuh"]
+[gd_scene load_steps=3 format=3 uid="uid://q5j35gkk4tuh"]
 
-[ext_resource type="Script" uid="uid://c7vr8epyfulfl" path="res://scripts/GDScript/card/card_info.gd" id="1_tyqa3"]
+[ext_resource type="Script" uid="uid://cafcke8rfjkbu" path="res://scripts/CSharp/objs/CardInfoModal.cs" id="1_ysq2h"]
 [ext_resource type="Texture2D" uid="uid://nslykklev0ws" path="res://cards/cerberusr.png" id="2_tyqa3"]
-[ext_resource type="Script" uid="uid://dya4p3tcwnowf" path="res://scripts/GDScript/board/CardInfo/Modal.gd" id="2_ysq2h"]
 
 [node name="CardInfo" type="Node2D"]
 visibility_layer = 2
-script = ExtResource("1_tyqa3")
+script = ExtResource("1_ysq2h")
 
 [node name="Control" type="Panel" parent="."]
 offset_left = -1.0
 offset_right = 1104.0
 offset_bottom = 1066.0
-script = ExtResource("2_ysq2h")
 
 [node name="SpriteArt" type="Sprite2D" parent="Control"]
 position = Vector2(505, 468)

@@ -3,7 +3,32 @@
   "WorkspaceRootPath": "E:\\games\\ProjectC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bulbo\\Documents\\cards\\scripts\\ttt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{80A0259A-2BC7-41A4-AA8C-79275A7F0B8C}|cards.csproj|e:\\games\\projectc\\scripts\\csharp\\database\\cardgamedbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A0259A-2BC7-41A4-AA8C-79275A7F0B8C}|cards.csproj|solutionrelative:scripts\\csharp\\database\\cardgamedbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A0259A-2BC7-41A4-AA8C-79275A7F0B8C}|cards.csproj|e:\\games\\projectc\\scripts\\csharp\\services\\carddbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A0259A-2BC7-41A4-AA8C-79275A7F0B8C}|cards.csproj|solutionrelative:scripts\\csharp\\services\\carddbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A0259A-2BC7-41A4-AA8C-79275A7F0B8C}|cards.csproj|e:\\games\\projectc\\scripts\\csharp\\models\\language.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A0259A-2BC7-41A4-AA8C-79275A7F0B8C}|cards.csproj|solutionrelative:scripts\\csharp\\models\\language.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A0259A-2BC7-41A4-AA8C-79275A7F0B8C}|cards.csproj|e:\\games\\projectc\\scripts\\csharp\\models\\cardability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A0259A-2BC7-41A4-AA8C-79275A7F0B8C}|cards.csproj|solutionrelative:scripts\\csharp\\models\\cardability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A0259A-2BC7-41A4-AA8C-79275A7F0B8C}|cards.csproj|e:\\games\\projectc\\scripts\\csharp\\models\\abilitytranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A0259A-2BC7-41A4-AA8C-79275A7F0B8C}|cards.csproj|solutionrelative:scripts\\csharp\\models\\abilitytranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A0259A-2BC7-41A4-AA8C-79275A7F0B8C}|cards.csproj|e:\\games\\projectc\\scripts\\csharp\\models\\cardtraslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A0259A-2BC7-41A4-AA8C-79275A7F0B8C}|cards.csproj|solutionrelative:scripts\\csharp\\models\\cardtraslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A0259A-2BC7-41A4-AA8C-79275A7F0B8C}|cards.csproj|e:\\games\\projectc\\scripts\\csharp\\models\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A0259A-2BC7-41A4-AA8C-79275A7F0B8C}|cards.csproj|solutionrelative:scripts\\csharp\\models\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +43,87 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ttt.cs",
-              "DocumentMoniker": "C:\\Users\\Bulbo\\Documents\\cards\\scripts\\ttt.cs",
-              "ToolTip": "C:\\Users\\Bulbo\\Documents\\cards\\scripts\\ttt.cs",
+              "Title": "CardGameDbContext .cs",
+              "DocumentMoniker": "E:\\games\\ProjectC\\scripts\\CSharp\\Database\\CardGameDbContext .cs",
+              "RelativeDocumentMoniker": "scripts\\CSharp\\Database\\CardGameDbContext .cs",
+              "ToolTip": "E:\\games\\ProjectC\\scripts\\CSharp\\Database\\CardGameDbContext .cs",
+              "RelativeToolTip": "scripts\\CSharp\\Database\\CardGameDbContext .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T16:58:10.278Z"
+              "WhenOpened": "2025-03-20T21:00:41.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AbilityTranslation.cs",
+              "DocumentMoniker": "E:\\games\\ProjectC\\scripts\\CSharp\\Models\\AbilityTranslation.cs",
+              "RelativeDocumentMoniker": "scripts\\CSharp\\Models\\AbilityTranslation.cs",
+              "ToolTip": "E:\\games\\ProjectC\\scripts\\CSharp\\Models\\AbilityTranslation.cs",
+              "RelativeToolTip": "scripts\\CSharp\\Models\\AbilityTranslation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T20:54:45.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CardAbility.cs",
+              "DocumentMoniker": "E:\\games\\ProjectC\\scripts\\CSharp\\Models\\CardAbility.cs",
+              "RelativeDocumentMoniker": "scripts\\CSharp\\Models\\CardAbility.cs",
+              "ToolTip": "E:\\games\\ProjectC\\scripts\\CSharp\\Models\\CardAbility.cs",
+              "RelativeToolTip": "scripts\\CSharp\\Models\\CardAbility.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T20:54:12.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Language.cs",
+              "DocumentMoniker": "E:\\games\\ProjectC\\scripts\\CSharp\\Models\\Language.cs",
+              "RelativeDocumentMoniker": "scripts\\CSharp\\Models\\Language.cs",
+              "ToolTip": "E:\\games\\ProjectC\\scripts\\CSharp\\Models\\Language.cs",
+              "RelativeToolTip": "scripts\\CSharp\\Models\\Language.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T20:54:08.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CardTraslation.cs",
+              "DocumentMoniker": "E:\\games\\ProjectC\\scripts\\CSharp\\Models\\CardTraslation.cs",
+              "RelativeDocumentMoniker": "scripts\\CSharp\\Models\\CardTraslation.cs",
+              "ToolTip": "E:\\games\\ProjectC\\scripts\\CSharp\\Models\\CardTraslation.cs",
+              "RelativeToolTip": "scripts\\CSharp\\Models\\CardTraslation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T20:51:36.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CardDbService.cs",
+              "DocumentMoniker": "E:\\games\\ProjectC\\scripts\\CSharp\\Services\\CardDbService.cs",
+              "RelativeDocumentMoniker": "scripts\\CSharp\\Services\\CardDbService.cs",
+              "ToolTip": "E:\\games\\ProjectC\\scripts\\CSharp\\Services\\CardDbService.cs",
+              "RelativeToolTip": "scripts\\CSharp\\Services\\CardDbService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T20:50:07.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Card.cs",
+              "DocumentMoniker": "E:\\games\\ProjectC\\scripts\\CSharp\\Models\\Card.cs",
+              "RelativeDocumentMoniker": "scripts\\CSharp\\Models\\Card.cs",
+              "ToolTip": "E:\\games\\ProjectC\\scripts\\CSharp\\Models\\Card.cs",
+              "RelativeToolTip": "scripts\\CSharp\\Models\\Card.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T21:17:10.124Z"
             }
           ]
         }

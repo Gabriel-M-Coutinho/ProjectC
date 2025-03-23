@@ -4,16 +4,16 @@ using System.Linq;
 
 namespace CardGame.Database
 {
-    public class CardDatabaseService
+    public class CardDbService
     {
         private readonly CardGameDbContext _dbContext;
 
-        public CardDatabaseService()
+        public CardDbService()
         {
             _dbContext = new CardGameDbContext();
             _dbContext.Database.EnsureCreated();
 
-            // Inicializa idiomas padrão se necessário
+            // Inicializa idiomas padrao se necessario
             InitializeLanguages();
         }
 
@@ -22,16 +22,16 @@ namespace CardGame.Database
             if (!_dbContext.Languages.Any())
             {
                 _dbContext.Languages.AddRange(
-                    new Language { Code = "pt-BR", Name = "Português (Brasil)", IsDefault = true },
-                    new Language { Code = "en-US", Name = "English (US)" },
-                    new Language { Code = "es-ES", Name = "Español" },
-                    new Language { Code = "jp" , Name = "Japanese"}
+                    new Language { Code = "pt-BR", Name = "Portugues (Brasil)" },
+                    new Language { Code = "en-US", Name = "English (US)", IsDefault = true },
+                    new Language { Code = "es-ES", Name = "Spanish" },
+                    new Language { Code = "ja-JP", Name = "Japanese" }
                 );
                 _dbContext.SaveChanges();
             }
         }
 
-        // Adicionar uma nova carta com tradução no idioma padrão
+        // Adicionar uma nova carta com traducao no idioma padrao
         public Card AddCard(string cardKey, string imagePath, int attack, int life,
                           string name, string description, string type = null,
                           string rarity = null, int manaCost = 0)
@@ -51,7 +51,7 @@ namespace CardGame.Database
             _dbContext.Cards.Add(card);
             _dbContext.SaveChanges();
 
-            // Adicionar tradução no idioma padrão
+            // Adicionar traducao no idioma padrao
             var defaultLanguage = _dbContext.Languages.FirstOrDefault(l => l.IsDefault);
             if (defaultLanguage != null)
             {
@@ -61,7 +61,7 @@ namespace CardGame.Database
             return card;
         }
 
-        // Adicionar tradução para uma carta
+        // Adicionar traducao para uma carta
         public CardTranslation AddCardTranslation(int cardId, string languageCode,
                                                string name, string description)
         {
@@ -83,7 +83,7 @@ namespace CardGame.Database
         public CardAbility AddCardAbility(int cardId, string abilityKey, string parameters,
                                         string name, string description, string languageCode = null)
         {
-            // Se languageCode não for fornecido, usa o idioma padrão
+            // Se languageCode nao for fornecido, usa o idioma padrao
             if (string.IsNullOrEmpty(languageCode))
             {
                 var defaultLanguage = _dbContext.Languages.FirstOrDefault(l => l.IsDefault);
@@ -100,7 +100,7 @@ namespace CardGame.Database
             _dbContext.CardAbilities.Add(ability);
             _dbContext.SaveChanges();
 
-            // Adicionar tradução da habilidade
+            // Adicionar traducao da habilidade
             var abilityTranslation = new AbilityTranslation
             {
                 AbilityId = ability.Id,
@@ -125,7 +125,7 @@ namespace CardGame.Database
                 .ToList();
         }
 
-        // Obter todas as cartas com traduções em um idioma específico
+        // Obter todas as cartas com traducoes em um idioma especifico
         public List<Card> GetAllCards(string languageCode)
         {
             return _dbContext.Cards
@@ -138,7 +138,7 @@ namespace CardGame.Database
         // Obter uma carta pelo ID
         public Card GetCardById(int id, string languageCode = null)
         {
-            // Se languageCode não for fornecido, usa o idioma padrão
+            // Se languageCode nao for fornecido, usa o idioma padrao
             if (string.IsNullOrEmpty(languageCode))
             {
                 var defaultLanguage = _dbContext.Languages.FirstOrDefault(l => l.IsDefault);
@@ -155,7 +155,7 @@ namespace CardGame.Database
         // Obter uma carta pela chave
         public Card GetCardByKey(string cardKey, string languageCode = null)
         {
-            // Se languageCode não for fornecido, usa o idioma padrão
+            // Se languageCode nao for fornecido, usa o idioma padrao
             if (string.IsNullOrEmpty(languageCode))
             {
                 var defaultLanguage = _dbContext.Languages.FirstOrDefault(l => l.IsDefault);

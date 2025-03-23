@@ -11,10 +11,10 @@ namespace CardGame.Database
         public int Id { get; set; }
 
         [Required]
-        public string Code { get; set; } // ex: "pt-BR"
+        public string Code { get; set; } 
 
         [Required]
-        public string Name { get; set; } // ex: "Português (Brasil)"
+        public string Name { get; set; } 
 
         public bool IsDefault { get; set; }
     }

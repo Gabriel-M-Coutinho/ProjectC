@@ -1,7 +1,14 @@
-[gd_scene load_steps=2 format=3 uid="uid://cx6vqrqv8dmk3"]
+[gd_scene load_steps=3 format=3 uid="uid://cx6vqrqv8dmk3"]
 
 [ext_resource type="PackedScene" uid="uid://dgihe0xugju0t" path="res://scenes/board.tscn" id="1_elqb8"]
+[ext_resource type="Script" uid="uid://vgfk64g0fh1k" path="res://scripts/CSharp/controllers/GameController.cs" id="2_rvslj"]
 
 [node name="Main" type="Node2D"]
+position = Vector2(-2, 0)
 
 [node name="Board" parent="." instance=ExtResource("1_elqb8")]
+offset_left = 4.0
+offset_right = 4.0
+
+[node name="GameController" type="Node" parent="."]
+script = ExtResource("2_rvslj")

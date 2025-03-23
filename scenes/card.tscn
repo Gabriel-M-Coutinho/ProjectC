@@ -1,34 +1,34 @@
-[gd_scene load_steps=5 format=3 uid="uid://dmot0vjmfhu1a"]
+[gd_scene load_steps=4 format=3 uid="uid://dmot0vjmfhu1a"]
 
-[ext_resource type="Script" uid="uid://dr4651nnol3we" path="res://scripts/GDScript/card/card.gd" id="1_d81rb"]
-[ext_resource type="Texture2D" uid="uid://dgxqbdbia36ie" path="res://cards/templatecard.png" id="2_kg30u"]
-[ext_resource type="Script" uid="uid://d4ntbpyv3lg3x" path="res://scripts/GDScript/card/cardcolision.gd" id="4_kg30u"]
+[ext_resource type="Script" uid="uid://ckcst55ai8ab6" path="res://scripts/CSharp/objs/Card.cs" id="1_ktuci"]
+[ext_resource type="Texture2D" uid="uid://emyxhn3xrlqe" path="res://cards/borda.png" id="2_ktuci"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ktuci"]
-size = Vector2(1239, 1754)
+size = Vector2(141, 203)
 
 [node name="Card" type="Control"]
 layout_mode = 3
 anchors_preset = 0
-offset_left = 639.0
-offset_top = 297.0
-offset_right = 639.0
-offset_bottom = 297.0
-script = ExtResource("1_d81rb")
-scalecard = 0.1
+offset_top = -1.0
+offset_bottom = -1.0
+script = ExtResource("1_ktuci")
 
 [node name="CardBack" type="Sprite2D" parent="."]
+position = Vector2(-1.99994, -3.99994)
 
 [node name="CardShape" type="Sprite2D" parent="."]
 texture_filter = 1
-texture = ExtResource("2_kg30u")
+position = Vector2(-1.49997, -2.20404)
+scale = Vector2(0.121774, 0.121774)
+texture = ExtResource("2_ktuci")
 
 [node name="CardImage" type="Sprite2D" parent="."]
 z_index = -1
+position = Vector2(-2.49994, -3.61865)
+scale = Vector2(0.120161, 0.120161)
 
 [node name="Area2D" type="Area2D" parent="."]
-script = ExtResource("4_kg30u")
+position = Vector2(-1.99994, -3.99994)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(-0.5, 2)
 shape = SubResource("RectangleShape2D_ktuci")

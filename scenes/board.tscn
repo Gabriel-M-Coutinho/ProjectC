@@ -1,18 +1,51 @@
-[gd_scene load_steps=3 format=3 uid="uid://dgihe0xugju0t"]
+[gd_scene load_steps=7 format=3 uid="uid://dgihe0xugju0t"]
 
-[ext_resource type="Script" uid="uid://bbg7civedjg3u" path="res://scripts/GDScript/board/board.gd" id="1_bw3vb"]
+[ext_resource type="Script" uid="uid://b7ki5bvbpo3ql" path="res://scripts/CSharp/objs/board/Board.cs" id="1_nglv8"]
+[ext_resource type="Script" uid="uid://d2mc14q0muh7o" path="res://scripts/CSharp/controllers/CardController.cs" id="2_nglv8"]
 [ext_resource type="PackedScene" uid="uid://q5j35gkk4tuh" path="res://scenes/cardInfo.tscn" id="2_tx6nw"]
+[ext_resource type="Script" uid="uid://c2tn0nht01ylu" path="res://scripts/CSharp/objs/board/Deck.cs" id="4_dun80"]
+[ext_resource type="Script" uid="uid://pkuq3kludhxh" path="res://scripts/CSharp/objs/board/Hand.cs" id="5_c3r7o"]
+[ext_resource type="Script" uid="uid://dh0nw7vu15oof" path="res://scripts/CSharp/objs/board/Graveyard.cs" id="6_wmvsh"]
 
-[node name="Board" type="Node2D"]
-script = ExtResource("1_bw3vb")
+[node name="Board" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_nglv8")
+
+[node name="CardController" type="Node2D" parent="."]
+script = ExtResource("2_nglv8")
+
+[node name="RayCast2D" type="RayCast2D" parent="CardController"]
 
 [node name="CardInfoUI" parent="." instance=ExtResource("2_tx6nw")]
 visible = false
 
-[node name="HBoxContainer" type="HBoxContainer" parent="."]
-offset_left = 518.0
-offset_top = 817.0
-offset_right = 1505.0
-offset_bottom = 983.0
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 187.0
+offset_top = 838.0
+offset_right = 1757.0
+offset_bottom = 1079.0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer"]
+layout_mode = 2
 theme_override_constants/separation = 90
 alignment = 1
+
+[node name="DeckP1" type="Node" parent="."]
+script = ExtResource("4_dun80")
+
+[node name="DeckP2" type="Node" parent="."]
+script = ExtResource("4_dun80")
+
+[node name="HandP1" type="Node" parent="."]
+script = ExtResource("5_c3r7o")
+
+[node name="HandP2" type="Node" parent="."]
+script = ExtResource("5_c3r7o")
+
+[node name="GraveyardP1" type="Node" parent="."]
+script = ExtResource("6_wmvsh")
+
+[node name="GraveyardP2" type="Node" parent="."]
+script = ExtResource("6_wmvsh")

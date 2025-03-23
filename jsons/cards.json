@@ -8,9 +8,9 @@
 		"life":30
 	},
 	{
-		"name": "Exodia, o Proibido",
+		"name": "pé grande",
 		"description": "Uma criatura lendária e invencível.",
-		"image_path": "res://cards/exodia.jpg",
+		"image_path": "res://cards/pegrande.png",
 		"atk":15,
 		"life":20
 	},
@@ -20,5 +20,5 @@
 		"image_path": "res://cards/dragao.webp",
 		"atk":15,
 		"life":20
-	},
+	}
 ]

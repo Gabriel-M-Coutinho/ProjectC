@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://dgihe0xugju0t"]
+
+[ext_resource type="Script" uid="uid://bbg7civedjg3u" path="res://scripts/GDScript/board/board.gd" id="1_bw3vb"]
+[ext_resource type="PackedScene" uid="uid://q5j35gkk4tuh" path="res://scenes/cardInfo.tscn" id="2_tx6nw"]
+
+[node name="Board" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_bw3vb")
+
+[node name="CardInfoUI" parent="." instance=ExtResource("2_tx6nw")]
+visible = false
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+offset_left = 518.0
+offset_top = 817.0
+offset_right = 1505.0
+offset_bottom = 983.0
+theme_override_constants/separation = 90
+alignment = 1
